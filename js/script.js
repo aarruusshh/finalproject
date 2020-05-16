@@ -102,7 +102,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
         // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
         // variable's name implies it expects.
         // var chosenCategoryShortName = ....
-
+chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
         var chosenCategoryShortName = chooseRandomCategory(categories).short_name;
 
 
